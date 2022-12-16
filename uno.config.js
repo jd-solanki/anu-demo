@@ -1,8 +1,9 @@
-import { presetCore, presetThemeDefault } from 'anu-vue'
+import { presetThemeDefault } from '@anu-vue/preset-theme-default'
+import { presetAnu, presetIconExtraProperties } from 'anu-vue'
 import {
-    defineConfig,
-    presetIcons,
-    presetUno
+  defineConfig,
+  presetIcons,
+  presetUno
 } from 'unocss'
 
 export default defineConfig({
@@ -10,14 +11,11 @@ export default defineConfig({
     presetUno(),
     presetIcons({
       scale: 1.2,
-      extraProperties: {
-        height: '1.5em',
-        'flex-shrink': '0',
-      },
+      extraProperties: presetIconExtraProperties,
     }),
 
     // anu-vue presets
-    presetCore(),
+    presetAnu(),
     presetThemeDefault(),
   ],
   include: [/.*\/anu-vue\.js(.*)?$/, './**/*.vue', './**/*.md'],
