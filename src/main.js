@@ -9,7 +9,7 @@ import 'uno.css'
 import 'anu-vue/dist/style.css'
 
 // default theme styles
-import '@anu-vue/preset-theme-default/dist/styles.scss'
+import '@anu-vue/preset-theme-default/dist/style.css'
 
 createApp(App)
     .use(anu, { registerComponents: true })

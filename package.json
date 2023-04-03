@@ -7,15 +7,15 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "anu-vue": "^0.11.0",
-    "vue": "^3.2.45"
+    "anu-vue": "^0.13.1",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@anu-vue/preset-theme-default": "^0.11.0",
-    "@iconify-json/bx": "^1.1.5",
-    "@vitejs/plugin-vue": "^4.0.0",
-    "sass": "^1.56.2",
-    "unocss": "^0.47.6",
-    "vite": "^4.0.1"
+    "@anu-vue/preset-theme-default": "^0.13.1",
+    "@iconify-json/bx": "^1.1.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.60.0",
+    "unocss": "^0.50.6",
+    "vite": "^4.2.1"
   }
 }
