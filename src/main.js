@@ -12,5 +12,5 @@ import 'anu-vue/dist/style.css'
 import '@anu-vue/preset-theme-default/dist/style.css'
 
 createApp(App)
-    .use(anu, { registerComponents: true })
+    .use(anu)
     .mount('#app')
